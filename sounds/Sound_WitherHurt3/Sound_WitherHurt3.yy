@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Sound_WitherHurt3",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.0,
+  "name":"Sound_WitherHurt3",
+  "parent":{
+    "name":"Hurt",
+    "path":"folders/GUI Elements/Wither/Wither Sounds/Hurt.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Sound_WitherHurt3.ogg",
+  "type":0,
+  "volume":1.0,
+}
