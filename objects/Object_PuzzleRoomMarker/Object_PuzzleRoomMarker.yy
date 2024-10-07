@@ -2,14 +2,14 @@
   "$GMObject":"",
   "%Name":"Object_PuzzleRoomMarker",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Object_PuzzleRoomMarker",
   "overriddenProperties":[],
   "parent":{
     "name":"Puzzle Room Marker",
-    "path":"folders/Puzzle Rooms/Puzzle Room Marker.yy",
+    "path":"folders/Layout/Puzzle Rooms/Puzzle Room Marker.yy",
   },
   "parentObjectId":null,
   "persistent":false,

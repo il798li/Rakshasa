@@ -7,4 +7,4 @@ targetYSpeed = 0
 acceleration = 1
 maxSpeed = 10
 
-selectionRange = 1
+selectionRange = 0.5

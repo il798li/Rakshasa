@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Stone Brick",
-    "path":"folders/Stone Brick.yy",
+    "path":"folders/Layout/Stone Brick.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

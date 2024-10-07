@@ -65,4 +65,6 @@ for (var locationY = 0; locationY < ds_list_size(locations); locationY += 1) {
 	}
 }
 
+x = originalX
+y = originalY
 visible = false;

@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Diorite",
-    "path":"folders/Diorite.yy",
+    "path":"folders/Layout/Diorite.yy",
   },
   "parentObjectId":null,
   "persistent":false,

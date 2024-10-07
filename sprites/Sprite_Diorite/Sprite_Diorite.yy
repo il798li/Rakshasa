@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Diorite",
-    "path":"folders/Diorite.yy",
+    "path":"folders/Layout/Diorite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

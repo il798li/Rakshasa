@@ -2,14 +2,14 @@
   "$GMObject":"",
   "%Name":"Object_RaindowPuzzle",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Object_RaindowPuzzle",
   "overriddenProperties":[],
   "parent":{
     "name":"Rainbow Puzzle",
-    "path":"folders/Puzzle Rooms/Rainbow Puzzle.yy",
+    "path":"folders/Layout/Puzzle Rooms/Rainbow Puzzle.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,5 +34,5 @@
     "path":"sprites/Sprite_DoubleGoldArrow/Sprite_DoubleGoldArrow.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

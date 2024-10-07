@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Puzzle Room Marker",
-    "path":"folders/Puzzle Rooms/Puzzle Room Marker.yy",
+    "path":"folders/Layout/Puzzle Rooms/Puzzle Room Marker.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

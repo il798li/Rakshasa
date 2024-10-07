@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Red Wool",
-    "path":"folders/Puzzle Rooms/Rainbow Puzzle/Wool/Red Wool.yy",
+    "path":"folders/Layout/Puzzle Rooms/Rainbow Puzzle/Wool/Red Wool.yy",
   },
   "parentObjectId":{
     "name":"Object_Wool",

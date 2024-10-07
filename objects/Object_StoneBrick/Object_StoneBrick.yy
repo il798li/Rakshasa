@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Stone Brick",
-    "path":"folders/Stone Brick.yy",
+    "path":"folders/Layout/Stone Brick.yy",
   },
   "parentObjectId":null,
   "persistent":false,

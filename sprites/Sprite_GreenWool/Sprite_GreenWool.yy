@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Green Wool",
-    "path":"folders/Puzzle Rooms/Rainbow Puzzle/Wool/Green Wool.yy",
+    "path":"folders/Layout/Puzzle Rooms/Rainbow Puzzle/Wool/Green Wool.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
