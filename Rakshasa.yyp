@@ -66,6 +66,7 @@
     {"id":{"name":"Object_Wither","path":"objects/Object_Wither/Object_Wither.yy",},},
     {"id":{"name":"Object_Wool","path":"objects/Object_Wool/Object_Wool.yy",},},
     {"id":{"name":"Object_YellowWool","path":"objects/Object_YellowWool/Object_YellowWool.yy",},},
+    {"id":{"name":"Object_Controls","path":"objects/Object_Controls/Object_Controls.yy",},},
     {"id":{"name":"Room_Main","path":"rooms/Room_Main/Room_Main.yy",},},
     {"id":{"name":"Script_LimitNumber","path":"scripts/Script_LimitNumber/Script_LimitNumber.yy",},},
     {"id":{"name":"Script_OrganizePuzzles","path":"scripts/Script_OrganizePuzzles/Script_OrganizePuzzles.yy",},},
