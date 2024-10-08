@@ -34,5 +34,9 @@ while (place_free(x + xSpeed, y) == false) {
 while (place_free(x, y + ySpeed) == false) {
 	ySpeed *= (abs(ySpeed) - 1) / (abs(ySpeed))
 }
+while (place_free(x + xSpeed, y + ySpeed) == false) {
+	xSpeed *= (abs(xSpeed) - 1) / (abs(xSpeed))
+	ySpeed *= (abs(ySpeed) - 1) / (abs(ySpeed))
+}
 x += xSpeed
 y += ySpeed
