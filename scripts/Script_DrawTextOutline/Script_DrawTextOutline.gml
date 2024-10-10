@@ -6,10 +6,8 @@ function Script_DrawTextOutline (text, textColor = c_white, shadowOffset = 2.285
 				continue
 			}
 			draw_text(xCoord, yCoord, text)
-			show_debug_message("Drew shadow!")
 		}
 	}
 	draw_set_color(textColor)
 	draw_text(x, y, text)
-	show_debug_message("Drew text!")
 }
