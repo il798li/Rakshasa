@@ -42,7 +42,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.6.0.157",
   },
   "name":"Rakshasa",
   "resources":[
@@ -50,6 +50,7 @@
     {"id":{"name":"Object_Blessing","path":"objects/Object_Blessing/Object_Blessing.yy",},},
     {"id":{"name":"Object_BlueWool","path":"objects/Object_BlueWool/Object_BlueWool.yy",},},
     {"id":{"name":"Object_Close","path":"objects/Object_Close/Object_Close.yy",},},
+    {"id":{"name":"Object_Controls","path":"objects/Object_Controls/Object_Controls.yy",},},
     {"id":{"name":"Object_Diorite","path":"objects/Object_Diorite/Object_Diorite.yy",},},
     {"id":{"name":"Object_GreenWool","path":"objects/Object_GreenWool/Object_GreenWool.yy",},},
     {"id":{"name":"Object_OrangeWool","path":"objects/Object_OrangeWool/Object_OrangeWool.yy",},},
@@ -66,8 +67,9 @@
     {"id":{"name":"Object_Wither","path":"objects/Object_Wither/Object_Wither.yy",},},
     {"id":{"name":"Object_Wool","path":"objects/Object_Wool/Object_Wool.yy",},},
     {"id":{"name":"Object_YellowWool","path":"objects/Object_YellowWool/Object_YellowWool.yy",},},
-    {"id":{"name":"Object_Controls","path":"objects/Object_Controls/Object_Controls.yy",},},
     {"id":{"name":"Room_Main","path":"rooms/Room_Main/Room_Main.yy",},},
+    {"id":{"name":"Script_CheckBoundary","path":"scripts/Script_CheckBoundary/Script_CheckBoundary.yy",},},
+    {"id":{"name":"Script_DrawTextOutline","path":"scripts/Script_DrawTextOutline/Script_DrawTextOutline.yy",},},
     {"id":{"name":"Script_LimitNumber","path":"scripts/Script_LimitNumber/Script_LimitNumber.yy",},},
     {"id":{"name":"Script_OrganizePuzzles","path":"scripts/Script_OrganizePuzzles/Script_OrganizePuzzles.yy",},},
     {"id":{"name":"Sound_WitherDeath","path":"sounds/Sound_WitherDeath/Sound_WitherDeath.yy",},},

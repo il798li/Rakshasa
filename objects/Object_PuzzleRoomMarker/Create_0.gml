@@ -1,2 +1,3 @@
-global.puzzleRoomWidth = 6
-global.puzzleRoomHeight = 6
+puzzleRoomWidth = 6
+puzzleRoomHeight = 6
+objective = ""

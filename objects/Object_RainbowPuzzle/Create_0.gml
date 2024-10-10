@@ -1,3 +1,9 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+// Inherit the parent event
+event_inherited();
+
 Script_OrganizePuzzles()
 
 locations = ds_list_create();
@@ -6,13 +12,13 @@ originalY = y;
 
 function generateRow() {
     var rows = ds_list_create();
-    repeat (global.puzzleRoomWidth) {
+    repeat (puzzleRoomWidth) {
         ds_list_add(rows, Object_Diorite);
     }
     return rows;
 }
 
-function generateLocation(maxX = global.puzzleRoomWidth, maxY = global.puzzleRoomHeight) {
+function generateLocation(maxX = puzzleRoomWidth, maxY = puzzleRoomHeight) {
     var locationX = irandom_range(0, maxX - 1);
     var locationY = irandom_range(0, maxY - 1);
     var row = ds_list_find_value(locations, locationY);
@@ -27,7 +33,7 @@ function generateLocation(maxX = global.puzzleRoomWidth, maxY = global.puzzleRoo
     }
 }
 
-repeat (global.puzzleRoomHeight) {
+repeat (puzzleRoomHeight) {
     ds_list_add(locations, generateRow());
 }
 
@@ -67,4 +73,7 @@ for (var locationY = 0; locationY < ds_list_size(locations); locationY += 1) {
 
 x = originalX
 y = originalY
+
+objective = "Select all 7 colors in order."
+
 visible = false;

@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"Object_RainbowPuzzle",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Object_RainbowPuzzle",
@@ -11,7 +11,10 @@
     "name":"Rainbow Puzzle",
     "path":"folders/Layout/Puzzle Rooms/Rainbow Puzzle.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Object_PuzzleRoomMarker",
+    "path":"objects/Object_PuzzleRoomMarker/Object_PuzzleRoomMarker.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

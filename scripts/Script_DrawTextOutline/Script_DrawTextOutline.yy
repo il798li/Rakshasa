@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script_LimitNumber",
+  "%Name":"Script_DrawTextOutline",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script_LimitNumber",
+  "name":"Script_DrawTextOutline",
   "parent":{
     "name":"Basic Scripts",
     "path":"folders/Basic Scripts.yy",
