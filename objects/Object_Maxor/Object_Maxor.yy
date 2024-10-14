@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Object_PuzzleRoomMarker",
+  "%Name":"Object_Maxor",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object_PuzzleRoomMarker",
+  "name":"Object_Maxor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Puzzle Room Marker",
-    "path":"folders/Layout/Puzzle Rooms/Puzzle Room Marker.yy",
+    "name":"Maxor",
+    "path":"folders/GUI Elements/Maxor.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_PuzzleRoomMaker",
-    "path":"sprites/Sprite_PuzzleRoomMaker/Sprite_PuzzleRoomMaker.yy",
+    "name":"Sprite_Maxor",
+    "path":"sprites/Sprite_Maxor/Sprite_Maxor.yy",
   },
   "spriteMaskId":null,
   "visible":true,

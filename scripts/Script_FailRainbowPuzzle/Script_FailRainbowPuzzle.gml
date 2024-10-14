@@ -7,4 +7,5 @@ function Script_FailRainbowPuzzle(){
 	player.ySpeed = 0
 	instance_destroy(Object_Wool, false)
 	rainbowPuzzle.status = false
+	audio_play_sound(Sound_WitherDeath, 1, false)
 }

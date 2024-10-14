@@ -13,7 +13,7 @@
   "name":"Sound_WitherHurt4",
   "parent":{
     "name":"Hurt",
-    "path":"folders/GUI Elements/Wither/Wither Sounds/Hurt.yy",
+    "path":"folders/GUI Elements/Maxor/Wither Sounds/Hurt.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

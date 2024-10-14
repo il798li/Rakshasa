@@ -13,7 +13,7 @@
   "name":"Sound_WitherDeath",
   "parent":{
     "name":"Wither Sounds",
-    "path":"folders/GUI Elements/Wither/Wither Sounds.yy",
+    "path":"folders/GUI Elements/Maxor/Wither Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
