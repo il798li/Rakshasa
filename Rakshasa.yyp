@@ -42,7 +42,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.6.0.157",
   },
   "name":"Rakshasa",
   "resources":[
@@ -70,8 +70,10 @@
     {"id":{"name":"Room_Main","path":"rooms/Room_Main/Room_Main.yy",},},
     {"id":{"name":"Script_CheckBoundary","path":"scripts/Script_CheckBoundary/Script_CheckBoundary.yy",},},
     {"id":{"name":"Script_DrawTextOutline","path":"scripts/Script_DrawTextOutline/Script_DrawTextOutline.yy",},},
+    {"id":{"name":"Script_FailRainbowPuzzle","path":"scripts/Script_FailRainbowPuzzle/Script_FailRainbowPuzzle.yy",},},
     {"id":{"name":"Script_LimitNumber","path":"scripts/Script_LimitNumber/Script_LimitNumber.yy",},},
     {"id":{"name":"Script_OrganizePuzzles","path":"scripts/Script_OrganizePuzzles/Script_OrganizePuzzles.yy",},},
+    {"id":{"name":"Sound_Click","path":"sounds/Sound_Click/Sound_Click.yy",},},
     {"id":{"name":"Sound_WitherDeath","path":"sounds/Sound_WitherDeath/Sound_WitherDeath.yy",},},
     {"id":{"name":"Sound_WitherHurt1","path":"sounds/Sound_WitherHurt1/Sound_WitherHurt1.yy",},},
     {"id":{"name":"Sound_WitherHurt2","path":"sounds/Sound_WitherHurt2/Sound_WitherHurt2.yy",},},

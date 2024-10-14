@@ -7,7 +7,7 @@ for (puzzleRoomMarkerIndex = 0; puzzleRoomMarkerIndex < puzzleRoomMarkers; puzzl
 	puzzleRoomMarker = instance_find(Object_PuzzleRoomMarker, puzzleRoomMarkerIndex)
 	prmHeight = 6
 	prmY = puzzleRoomMarker.y
-	inBoundary = Script_CheckBoundary(player, puzzleRoomMarker.x, puzzleRoomMarker.y, puzzleRoomMarker.x + puzzleRoomMarker.puzzleRoomWidth * Object_Diorite.sprite_width, puzzleRoomMarker.y + puzzleRoomMarker.puzzleRoomHeight * Object_Diorite.sprite_height)
+	inBoundary = Script_CheckBoundary(player, puzzleRoomMarker.x, puzzleRoomMarker.y, puzzleRoomMarker.x + puzzleRoomMarker.puzzleRoomWidth * Object_Diorite.sprite_width, puzzleRoomMarker.y + (puzzleRoomMarker.puzzleRoomHeight + 1) * Object_Diorite.sprite_height)
 	if (inBoundary) {
 		if (puzzleRoomMarker.status) {
 			objectiveText += "None; You solved this puzzle!"

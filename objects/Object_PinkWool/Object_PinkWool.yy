@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"Object_PinkWool",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"Object_PinkWool",
   "overriddenProperties":[],
