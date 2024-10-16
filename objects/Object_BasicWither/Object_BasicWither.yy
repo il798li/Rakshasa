@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Object_BasicWither",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Object_BasicWither",
   "overriddenProperties":[],
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_BasicWither",
-    "path":"sprites/Sprite_BasicWither/Sprite_BasicWither.yy",
+    "name":"Sprite_BigMidas",
+    "path":"sprites/Sprite_BigMidas/Sprite_BigMidas.yy",
   },
   "spriteMaskId":null,
   "visible":true,

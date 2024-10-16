@@ -83,7 +83,7 @@
     {"id":{"name":"Sound_WitherHurt2","path":"sounds/Sound_WitherHurt2/Sound_WitherHurt2.yy",},},
     {"id":{"name":"Sound_WitherHurt3","path":"sounds/Sound_WitherHurt3/Sound_WitherHurt3.yy",},},
     {"id":{"name":"Sound_WitherHurt4","path":"sounds/Sound_WitherHurt4/Sound_WitherHurt4.yy",},},
-    {"id":{"name":"Sprite_BasicWither","path":"sprites/Sprite_BasicWither/Sprite_BasicWither.yy",},},
+    {"id":{"name":"Sprite_BigMidas","path":"sprites/Sprite_BigMidas/Sprite_BigMidas.yy",},},
     {"id":{"name":"Sprite_Blessing","path":"sprites/Sprite_Blessing/Sprite_Blessing.yy",},},
     {"id":{"name":"Sprite_BlueWool","path":"sprites/Sprite_BlueWool/Sprite_BlueWool.yy",},},
     {"id":{"name":"Sprite_Close","path":"sprites/Sprite_Close/Sprite_Close.yy",},},
