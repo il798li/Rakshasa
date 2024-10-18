@@ -39,13 +39,14 @@
     {"$GMFolder":"","%Name":"Red Wool","folderPath":"folders/Layout/Puzzle Rooms/Rainbow Puzzle/Wool/Red Wool.yy","name":"Red Wool","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Yellow Wool","folderPath":"folders/Layout/Puzzle Rooms/Rainbow Puzzle/Wool/Yellow Wool.yy","name":"Yellow Wool","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Stone Brick","folderPath":"folders/Layout/Stone Brick.yy","name":"Stone Brick","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Midas","folderPath":"folders/Midas.yy","name":"Midas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.0.157",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"Rakshasa",
   "resources":[
@@ -72,6 +73,7 @@
     {"id":{"name":"Object_Wool","path":"objects/Object_Wool/Object_Wool.yy",},},
     {"id":{"name":"Object_YellowWool","path":"objects/Object_YellowWool/Object_YellowWool.yy",},},
     {"id":{"name":"Room_Main","path":"rooms/Room_Main/Room_Main.yy",},},
+    {"id":{"name":"Room_Midas","path":"rooms/Room_Midas/Room_Midas.yy",},},
     {"id":{"name":"Script_CheckBoundary","path":"scripts/Script_CheckBoundary/Script_CheckBoundary.yy",},},
     {"id":{"name":"Script_DrawTextOutline","path":"scripts/Script_DrawTextOutline/Script_DrawTextOutline.yy",},},
     {"id":{"name":"Script_FailRainbowPuzzle","path":"scripts/Script_FailRainbowPuzzle/Script_FailRainbowPuzzle.yy",},},
@@ -110,6 +112,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room_Main","path":"rooms/Room_Main/Room_Main.yy",},},
+    {"roomId":{"name":"Room_Midas","path":"rooms/Room_Midas/Room_Midas.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

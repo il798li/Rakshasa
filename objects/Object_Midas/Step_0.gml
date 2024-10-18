@@ -1,7 +1,8 @@
 if (clicked) {
-	layerID = layer_get_id("Game")
-	show_debug_message(string(layerID == noone))
-	instance_deactivate_layer(layerID)
-	clicked = false
-	show_debug_message(layer_get_name(layerID))
+	for (index = 0; index < array_length(global.mainLayers); index++) {
+		layerName = array_get(global.mainLayers, index)
+		layerID = layer_get_id(layerName)
+		instance_deactivate_layer(layerID)
+	}
+	instance_deactivate_object(object_index)
 }

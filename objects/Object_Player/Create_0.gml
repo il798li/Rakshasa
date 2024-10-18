@@ -8,3 +8,11 @@ acceleration = 1
 maxSpeed = 10
 
 selectionRange = 0.5
+
+global.mainLayers = [
+	"PuzzleRoomMarker",
+	"RainbowPuzzleForeground",
+	"RainbowPuzzleBackground",
+	"Midas",
+	"InnerWalls"
+]

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"Script_OrganizePuzzles",
   "isCompatibility":false,
   "isDnD":false,
