@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Object_BasicWither",
+  "%Name":"Object_Midas",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object_BasicWither",
+  "name":"Object_Midas",
   "overriddenProperties":[],
   "parent":{
-    "name":"Boss Room Marker",
-    "path":"folders/Layout/Boss Rooms/Boss Room Marker.yy",
+    "name":"Midas",
+    "path":"folders/Layout/Boss Rooms/Boss Room Marker/Midas.yy",
   },
   "parentObjectId":{
     "name":"Object_Selectable",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_BigMidas",
-    "path":"sprites/Sprite_BigMidas/Sprite_BigMidas.yy",
+    "name":"Sprite_Midas",
+    "path":"sprites/Sprite_Midas/Sprite_Midas.yy",
   },
   "spriteMaskId":null,
   "visible":true,

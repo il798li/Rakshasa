@@ -8,7 +8,7 @@ if (clicked) {
 			instance_create_layer(object.x + 6 * 64 / 2, object.y + 6 * 64 / 2, "RainbowPuzzleForeground",  Object_Blessing)
 			rainbowPuzzle = instance_find(Object_RainbowPuzzle, 0)
 			rainbowPuzzle.status = true
-			global.nextColor += 1
+			audio_play_sound(Sound_Victory, 1, false)
 		}
 		audio_play_sound(Sound_Click, 1, false)
 	} else {
