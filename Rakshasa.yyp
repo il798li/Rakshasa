@@ -46,13 +46,14 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.6.0.157",
   },
   "name":"Rakshasa",
   "resources":[
     {"id":{"name":"Font_Minecraft","path":"fonts/Font_Minecraft/Font_Minecraft.yy",},},
     {"id":{"name":"Object_Blessing","path":"objects/Object_Blessing/Object_Blessing.yy",},},
     {"id":{"name":"Object_BlueWool","path":"objects/Object_BlueWool/Object_BlueWool.yy",},},
+    {"id":{"name":"Object_Chat","path":"objects/Object_Chat/Object_Chat.yy",},},
     {"id":{"name":"Object_Close","path":"objects/Object_Close/Object_Close.yy",},},
     {"id":{"name":"Object_Controls","path":"objects/Object_Controls/Object_Controls.yy",},},
     {"id":{"name":"Object_Diorite","path":"objects/Object_Diorite/Object_Diorite.yy",},},
