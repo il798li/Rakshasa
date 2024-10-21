@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Object_PuzzleRoomMarker",
+  "%Name":"Object_GoldBackground",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object_PuzzleRoomMarker",
+  "name":"Object_GoldBackground",
   "overriddenProperties":[],
   "parent":{
-    "name":"Puzzle Room Marker",
-    "path":"folders/Layout/Puzzle Rooms/Puzzle Room Marker.yy",
+    "name":"Gold Background",
+    "path":"folders/Midas/Gold Background.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_PuzzleRoomMaker",
-    "path":"sprites/Sprite_PuzzleRoomMaker/Sprite_PuzzleRoomMaker.yy",
+    "name":"Sprite_GoldBackground",
+    "path":"sprites/Sprite_GoldBackground/Sprite_GoldBackground.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -2,19 +2,17 @@
   "$GMObject":"",
   "%Name":"Object_Midas",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Object_Midas",
   "overriddenProperties":[],
   "parent":{
     "name":"Midas",
-    "path":"folders/Layout/Boss Rooms/Boss Room Marker/Midas.yy",
+    "path":"folders/Midas.yy",
   },
-  "parentObjectId":{
-    "name":"Object_Selectable",
-    "path":"objects/Object_Selectable/Object_Selectable.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

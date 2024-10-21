@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"Script_DrawTextOutline",
+  "%Name":"Script_GetDiorites",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script_DrawTextOutline",
+  "name":"Script_GetDiorites",
   "parent":{
-    "name":"Basic Scripts",
-    "path":"folders/Basic Scripts.yy",
+    "name":"Midas",
+    "path":"folders/Midas.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

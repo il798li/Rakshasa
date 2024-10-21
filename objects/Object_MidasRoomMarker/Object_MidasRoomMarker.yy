@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Object_PuzzleRoomMarker",
+  "%Name":"Object_MidasRoomMarker",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object_PuzzleRoomMarker",
+  "name":"Object_MidasRoomMarker",
   "overriddenProperties":[],
   "parent":{
-    "name":"Puzzle Room Marker",
-    "path":"folders/Layout/Puzzle Rooms/Puzzle Room Marker.yy",
+    "name":"Midas",
+    "path":"folders/Layout/Boss Rooms/Boss Room Marker/Midas.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Object_Selectable",
+    "path":"objects/Object_Selectable/Object_Selectable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_PuzzleRoomMaker",
-    "path":"sprites/Sprite_PuzzleRoomMaker/Sprite_PuzzleRoomMaker.yy",
+    "name":"Sprite_Midas",
+    "path":"sprites/Sprite_Midas/Sprite_Midas.yy",
   },
   "spriteMaskId":null,
   "visible":true,
