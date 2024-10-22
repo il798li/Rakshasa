@@ -6,7 +6,7 @@ function Script_GetDiorites () {
 	dioritesCount = instance_number(Object_Diorite)
 	for (dioriteIndex = 0; dioriteIndex < dioritesCount; dioriteIndex += 1) {
 		dioriteInstance = instance_find(Object_Diorite, dioriteIndex)
-		ds_list_add_add(dioritesList, dioriteInstance)
+		ds_list_add(dioritesList, dioriteInstance)
 	}
 	return dioritesList
 }

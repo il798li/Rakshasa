@@ -1,1 +1,2 @@
-speed = 0.1
+speed = 1
+randomize()
