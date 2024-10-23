@@ -8,6 +8,7 @@ acceleration = 1
 maxSpeed = 10
 
 selectionRange = 0.5
+global.remainingHealth = global.health
 
 global.mainLayers = [
 	"PuzzleRoomMarker",

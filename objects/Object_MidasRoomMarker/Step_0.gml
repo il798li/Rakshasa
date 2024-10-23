@@ -8,3 +8,6 @@ if (clicked) {
 	room_goto(Room_Midas)
 	clicked = false
 }
+if (global.midasDefeated) {
+	instance_deactivate_object(object_index)
+}

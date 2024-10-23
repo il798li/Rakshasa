@@ -18,6 +18,10 @@ for (puzzleRoomMarkerIndex = 0; puzzleRoomMarkerIndex < puzzleRoomMarkers; puzzl
 		}
 	}
 }
+healthText = string(global.remainingHealth) + "/" + string(global.health)
 objectiveText = "\n\n> " + objectiveText
 controlsText += objectiveText
+if (room != Room_Main) {
+	controlsText += "\n\n" + healthText
+}
 Script_DrawTextOutline(controlsText)
