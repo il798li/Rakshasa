@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Object_GoldTrinket",
+  "%Name":"Object_Light",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object_GoldTrinket",
+  "name":"Object_Light",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gold Trinket",
-    "path":"folders/Midas/Gold Trinket.yy",
+    "name":"Light",
+    "path":"folders/Layout/Puzzle Rooms/Light Puzzle/Light.yy",
   },
   "parentObjectId":{
     "name":"Object_Selectable",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_GoldTrinket",
-    "path":"sprites/Sprite_GoldTrinket/Sprite_GoldTrinket.yy",
+    "name":"Sprite_Light",
+    "path":"sprites/Sprite_Light/Sprite_Light.yy",
   },
   "spriteMaskId":null,
   "visible":true,

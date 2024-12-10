@@ -9,7 +9,7 @@ closestObject = noone
 for (index = 0; index < selectables; index += 1) {
 	object = instance_find(Object_Selectable, index)
 	distance = distance_to_object(object)
-	if (distance < closestDistance) {
+	if (distance < closestDistance && object.enabled) {
 		closestDistance = distance
 		closestObject = object
 	}

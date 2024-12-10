@@ -1,5 +1,4 @@
 event_inherited();
-
 Script_OrganizePuzzles()
 
 locations = ds_list_create();

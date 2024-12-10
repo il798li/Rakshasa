@@ -1,4 +1,4 @@
-function Script_DrawTextOutline (text, textColor = c_white, shadowOffset = 2.2857142857, shadowColor = c_black) {
+function Script_DrawTextOutline (text, textColor = c_black, shadowOffset = 2.2857142857, shadowColor = c_red) {
 	draw_set_color(shadowColor)
 	for (xCoord = x - shadowOffset; xCoord <= x + shadowOffset; xCoord += 1) {
 		for (yCoord = y - shadowOffset; yCoord <= y + shadowOffset; yCoord += 1) {

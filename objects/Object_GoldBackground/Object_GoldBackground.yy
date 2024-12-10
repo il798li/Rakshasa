@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_GoldBackground",
-    "path":"sprites/Sprite_GoldBackground/Sprite_GoldBackground.yy",
+    "name":"Sprite_GoldOre",
+    "path":"sprites/Sprite_GoldOre/Sprite_GoldOre.yy",
   },
   "spriteMaskId":null,
   "visible":true,
