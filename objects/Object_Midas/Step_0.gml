@@ -17,7 +17,7 @@ for (dioriteIndex = 0; dioriteIndex < dioritesCount; dioriteIndex += 1) {
 	}
 }
 
-if (instance_number(Object_Lamp) <= 0 && !dead) {
+if (global.remainingDiamond <= 0 && !dead) {
 	dead = true
 	speed = 0
 	instance_deactivate_object(Object_MidasRoomMarker)

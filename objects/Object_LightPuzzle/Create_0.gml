@@ -1,4 +1,5 @@
 event_inherited();
+won = false
 original = false
 Script_OrganizePuzzles()
 
@@ -13,3 +14,11 @@ for (x = 1; x <= 4; x += 1) {
 }
 x = originalX
 y = originalY
+
+with (Object_Light) {
+	number = irandom_range(1, 2)
+	if (number == 1) {
+		clicked = true
+	}
+	show_debug_message("x = " + string(x) + ", y = " + string(y) + "): " + string(number))
+}
