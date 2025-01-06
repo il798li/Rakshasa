@@ -17,6 +17,11 @@ for (dioriteIndex = 0; dioriteIndex < dioritesCount; dioriteIndex += 1) {
 	}
 }
 
+if (global.remainingDiamond == 1) {
+	ds_list_add(global.chat, "[BOSS] Midas: My golden touch... It fades away...")
+	global.remainingDiamond -= 0.01
+}
+
 if (global.remainingDiamond <= 0 && !dead) {
 	dead = true
 	speed = 0
@@ -24,4 +29,5 @@ if (global.remainingDiamond <= 0 && !dead) {
 	playWitherSounds = true
 	alarm[0] = 2 * 60
 	alarm[1] = 1
+	ds_list_add(global.chat, "[BOSS] Midas: MY POWER! IT HURTS!")
 }

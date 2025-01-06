@@ -8,5 +8,6 @@ function Script_FailRainbowPuzzle(){
 	instance_destroy(Object_Wool, false)
 	rainbowPuzzle.status = false
 	audio_play_sound(Sound_WitherDeath, 1, false)
-	ds_list_add(global.chat, "You failed the Rainbow Puzzle!")
+	ds_list_add(global.chat, "[PUZZLE] Rainbow Puzzle: You failed! ")
+	
 }

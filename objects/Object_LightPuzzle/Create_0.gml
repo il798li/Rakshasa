@@ -1,4 +1,5 @@
 event_inherited();
+objective = "Turn of all the lights."
 won = false
 original = false
 Script_OrganizePuzzles()

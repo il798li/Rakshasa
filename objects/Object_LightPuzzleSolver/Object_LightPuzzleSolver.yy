@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Object_MinesweeperPuzzle",
+  "%Name":"Object_LightPuzzleSolver",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object_MinesweeperPuzzle",
+  "name":"Object_LightPuzzleSolver",
   "overriddenProperties":[],
   "parent":{
-    "name":"Minesweeper Puzzle",
-    "path":"folders/Layout/Puzzle Rooms/Minesweeper Puzzle.yy",
+    "name":"LightPuzzleSolver",
+    "path":"folders/GUI Elements/LightPuzzleSolver.yy",
   },
-  "parentObjectId":{
-    "name":"Object_PuzzleRoomMarker",
-    "path":"objects/Object_PuzzleRoomMarker/Object_PuzzleRoomMarker.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite_Light",
+    "path":"sprites/Sprite_Light/Sprite_Light.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

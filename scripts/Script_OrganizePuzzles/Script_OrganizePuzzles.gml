@@ -1,4 +1,5 @@
 function Script_OrganizePuzzles () {
+	return
 	randomize()
 	markersCount = instance_number(Object_PuzzleRoomMarker)
 	index = irandom_range(0, markersCount - 1)
@@ -13,7 +14,7 @@ function Script_GetOriginalPuzzle() {
 	markersCount = instance_number(Object_PuzzleRoomMarker)
 	index = irandom_range(0, markersCount - 1)
 	puzzleRoomMarker = instance_find(Object_PuzzleRoomMarker, index)
-	if (puzzleRoomMarker.object_index == Object_PuzzleRoomMarker) {
+	if (puzzleRoomMarker.visible) {
 		return puzzleRoomMarker
 	} else {
 		return Script_GetOriginalPuzzle()

@@ -18,6 +18,7 @@
     {"$GMFolder":"","%Name":"Segmented Blue Arrow","folderPath":"folders/GUI Elements/Arrows/Segmented Blue Arrow.yy","name":"Segmented Blue Arrow","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Solid Blue Arrow","folderPath":"folders/GUI Elements/Arrows/Solid Blue Arrow.yy","name":"Solid Blue Arrow","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Close Button","folderPath":"folders/GUI Elements/Close Button.yy","name":"Close Button","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"LightPuzzleSolver","folderPath":"folders/GUI Elements/LightPuzzleSolver.yy","name":"LightPuzzleSolver","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Maxor","folderPath":"folders/GUI Elements/Maxor.yy","name":"Maxor","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Wither Sounds","folderPath":"folders/GUI Elements/Maxor/Wither Sounds.yy","name":"Wither Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hurt","folderPath":"folders/GUI Elements/Maxor/Wither Sounds/Hurt.yy","name":"Hurt","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -51,7 +52,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.6.0.157",
   },
   "name":"Rakshasa",
   "resources":[
@@ -67,6 +68,7 @@
     {"id":{"name":"Object_Lamp","path":"objects/Object_Lamp/Object_Lamp.yy",},},
     {"id":{"name":"Object_Light","path":"objects/Object_Light/Object_Light.yy",},},
     {"id":{"name":"Object_LightPuzzle","path":"objects/Object_LightPuzzle/Object_LightPuzzle.yy",},},
+    {"id":{"name":"Object_LightPuzzleSolver","path":"objects/Object_LightPuzzleSolver/Object_LightPuzzleSolver.yy",},},
     {"id":{"name":"Object_Maxor","path":"objects/Object_Maxor/Object_Maxor.yy",},},
     {"id":{"name":"Object_Midas","path":"objects/Object_Midas/Object_Midas.yy",},},
     {"id":{"name":"Object_MidasRoomMarker","path":"objects/Object_MidasRoomMarker/Object_MidasRoomMarker.yy",},},
@@ -100,6 +102,8 @@
     {"id":{"name":"Sound_WitherHurt2","path":"sounds/Sound_WitherHurt2/Sound_WitherHurt2.yy",},},
     {"id":{"name":"Sound_WitherHurt3","path":"sounds/Sound_WitherHurt3/Sound_WitherHurt3.yy",},},
     {"id":{"name":"Sound_WitherHurt4","path":"sounds/Sound_WitherHurt4/Sound_WitherHurt4.yy",},},
+    {"id":{"name":"Sprite_Big","path":"sprites/Sprite_Big/Sprite_Big.yy",},},
+    {"id":{"name":"Sprite_BigMidas_","path":"sprites/Sprite_BigMidas_/Sprite_BigMidas_.yy",},},
     {"id":{"name":"Sprite_BigMidas","path":"sprites/Sprite_BigMidas/Sprite_BigMidas.yy",},},
     {"id":{"name":"Sprite_Blacksheep","path":"sprites/Sprite_Blacksheep/Sprite_Blacksheep.yy",},},
     {"id":{"name":"Sprite_Blessing","path":"sprites/Sprite_Blessing/Sprite_Blessing.yy",},},
