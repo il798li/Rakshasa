@@ -4,7 +4,7 @@ dioritesCount = ds_list_size(diorites)
 damaged = false
 for (dioriteIndex = 0; dioriteIndex < dioritesCount; dioriteIndex += 1) {
 	dioriteObject = ds_list_find_value(diorites, dioriteIndex)
-	if (dioriteObject.x <= x && dioriteObject.layer == layer_get_id("GameBackground")) {
+	if (dioriteObject.x <= x + sprite_width && dioriteObject.layer == layer_get_id("GameBackground")) {
 		show_debug_message("turn to gold")
 		instance_create_layer(dioriteObject.x, dioriteObject.y, dioriteObject.layer, Object_GoldBackground)
 		if (!damaged) {
@@ -29,5 +29,14 @@ if (global.remainingDiamond <= 0 && !dead) {
 	playWitherSounds = true
 	alarm[0] = 2 * 60
 	alarm[1] = 1
-	ds_list_add(global.chat, "[BOSS] Midas: MY POWER! IT HURTS!")
+	ds_list_add(global.chat, "[BOSS] Midas: IT HURTS!")
+}
+if (x + sprite_width >= room_width - Object_StoneBrick.sprite_width) {
+	speed = 0
+	ds_list_add(global.chat, "Challenging me was a grave error...")
+}
+
+if (global.remainingHealth <= 0) {
+	audio_play_sound(Sound_WitherDeath, 1, false)
+	room_goto(Room_Main)
 }

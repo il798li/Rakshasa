@@ -1,4 +1,3 @@
-speed = 1
 randomize()
 event_inherited()
 dead = false
@@ -13,4 +12,4 @@ with (Object_Diorite) {
 	randomize();
 }
 ds_list_add(global.chat, "[BOSS] Midas: My daughter... My beautiful daughter...")
-ds_list_add(global.chat, "[BOSS] Midas: No matter; I'll turn you to gold as well.")
+alarm[3] = 300
