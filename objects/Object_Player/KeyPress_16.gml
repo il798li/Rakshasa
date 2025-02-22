@@ -7,3 +7,6 @@ for (index = 0; index < selectables; index++) {
 		show_debug_message("Clicked!")
 	}
 }
+if (room == Room_Rakshasa) {
+	instance_create_depth(x, y, depth, Object_FireCharge)
+}

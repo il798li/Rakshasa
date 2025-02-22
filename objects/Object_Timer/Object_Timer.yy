@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Object_Diorite",
+  "%Name":"Object_Timer",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object_Diorite",
+  "name":"Object_Timer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Diorite",
-    "path":"folders/Layout/Diorite.yy",
+    "name":"Rakshasa",
+    "path":"Rakshasa.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite_Diorite",
-    "path":"sprites/Sprite_Diorite/Sprite_Diorite.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

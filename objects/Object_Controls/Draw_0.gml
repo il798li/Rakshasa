@@ -1,6 +1,10 @@
 draw_set_font(Font_Minecraft)
 puzzleRoomMarkers = instance_number(Object_PuzzleRoomMarker)
+
 var controlsText = "> Controls: \n> > Move: Up/Down/Left/Right\n> > Select: Shift"
+if (room == Room_Rakshasa) {
+	controlsText = "> Controls: \n> > Move: Up/Down/Left/Right\n> > Shoot: Shift"
+}
 var objectiveText = "Objective: "
 puzzleRoomMarker = noone
 for (puzzleRoomMarkerIndex = 0; puzzleRoomMarkerIndex < puzzleRoomMarkers; puzzleRoomMarkerIndex += 1) {
@@ -18,10 +22,15 @@ for (puzzleRoomMarkerIndex = 0; puzzleRoomMarkerIndex < puzzleRoomMarkers; puzzl
 		}
 	}
 }
-healthText = string(global.remainingHealth) + "/" + string(global.health)
+healthText = "Your health: " + string(global.remainingHealth) + "/" + string(global.health)
+damageText = "Your damage:" + string(global.damage)
 objectiveText = "\n\n> " + objectiveText
 controlsText += objectiveText
 if (room != Room_Main) {
-	controlsText += "\n\n" + healthText
+	controlsText += "\n\n" + healthText + "\n" + damageText
+	
+}
+if (room == Room_Rakshasa) {
+	controlsText += "\n\n Rakshasa's Health: " + string(global.rakshasaHealth) + "/100"
 }
 Script_DrawTextOutline(controlsText)

@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Object_Diorite",
+  "%Name":"Object_PlayerFireCharge",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Object_Player","path":"objects/Object_Player/Object_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object_Diorite",
+  "name":"Object_PlayerFireCharge",
   "overriddenProperties":[],
   "parent":{
-    "name":"Diorite",
-    "path":"folders/Layout/Diorite.yy",
+    "name":"Fire Cha",
+    "path":"folders/Fire Cha.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_Diorite",
-    "path":"sprites/Sprite_Diorite/Sprite_Diorite.yy",
+    "name":"Sprite_FireCharge",
+    "path":"sprites/Sprite_FireCharge/Sprite_FireCharge.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -2430,6 +2430,7 @@
     {"name":"inst_5D8E388","path":"rooms/Room_Main/Room_Main.yy",},
     {"name":"inst_347959CA","path":"rooms/Room_Main/Room_Main.yy",},
     {"name":"inst_4CBC30EA","path":"rooms/Room_Main/Room_Main.yy",},
+    {"name":"inst_1EE9BC85","path":"rooms/Room_Main/Room_Main.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -3620,6 +3621,7 @@
             {"$GMRLayer":"","%Name":"Bosses","depth":1500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[
                 {"$GMRInstanceLayer":"","%Name":"Midas","depth":1600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
                     {"$GMRInstance":"v1","%Name":"inst_28505B26","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28505B26","objectId":{"name":"Object_MidasRoomMarker","path":"objects/Object_MidasRoomMarker/Object_MidasRoomMarker.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1856.0,"y":1424.0,},
+                    {"$GMRInstance":"v1","%Name":"inst_1EE9BC85","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EE9BC85","objectId":{"name":"Object_RakshasaRoomMarker","path":"objects/Object_RakshasaRoomMarker/Object_RakshasaRoomMarker.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3680.0,"y":1424.0,},
                   ],"layers":[],"name":"Midas","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
                 {"$GMRLayer":"","%Name":"BossRooms","depth":1700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"BossRooms","properties":[],"resourceType":"GMRLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
               ],"name":"Bosses","properties":[],"resourceType":"GMRLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

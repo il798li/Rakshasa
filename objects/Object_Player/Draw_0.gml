@@ -27,3 +27,10 @@ if (closestDistance < selectionRange * 64) {
 	closestObject.layer = layer
 	closestObject.depth = depth + 1
 }
+
+
+
+
+
+
+

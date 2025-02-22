@@ -1,6 +1,8 @@
 targetXSpeed = 0
 targetYSpeed = 0
 
+
+
 if (keyboard_check(vk_left)) {
 	targetXSpeed -= maxSpeed
 }
@@ -16,6 +18,18 @@ if (keyboard_check(vk_down)) {
 
 targetYSpeed = Script_LimitNumber(targetYSpeed, maxSpeed)
 targetXSpeed = Script_LimitNumber(targetXSpeed, maxSpeed)
+
+if (targetYSpeed > 0) {
+	image_index = 1
+} else if (targetYSpeed < 0) {
+	image_index = 2
+} else if (targetXSpeed < 0) {
+	image_index = 4
+} else if (targetXSpeed > 0) {
+	image_index = 3
+} else {
+	image_index = 0
+}
 
 if (xSpeed < targetXSpeed) {
 	xSpeed += acceleration
@@ -40,3 +54,9 @@ while (place_free(x + xSpeed, y + ySpeed) == false) {
 }
 x += xSpeed
 y += ySpeed
+
+
+
+
+
+
